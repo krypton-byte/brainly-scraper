@@ -12,7 +12,7 @@
 ```
 # Use
 ```python
->>> from tiktok_brainly_scraper import brainly
+>>> from brainly_scraper import brainly
 >>> brainly("question", amount:int)
 ```
 # Donasi
