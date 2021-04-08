@@ -10,7 +10,7 @@
 > python3 -m pip install brainly-scraper
 > python3 -m pip install git+https://github.com/krypton-byte/brainly-scraper
 ```
-# ssstik
+# Use
 ```python
 >>> from tiktok_brainly_scraper import brainly
 >>> brainly("question", amount:int)
