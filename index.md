@@ -31,7 +31,8 @@ Example:
 ## <u> get Answer Text</u>
 ```python
 >>> for i in scrap:
-...    print(i.answers.content)
+...    for answer in i.answers:
+...       print(answer.content)
 ```
 ## <u> get Question Media</u>
 ```python
