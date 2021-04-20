@@ -24,7 +24,7 @@ Example:
 ```python
 >>> for i in scrap:
 ...    for x in i.question.attachments:
-...        x.download("media.jpg") # ToFile
+...        x.download("media.jpg") # File
 ...        x.download() # Buffer Type
 ...        x.url # Media url
 ```
@@ -37,11 +37,7 @@ Example:
 ```python
 >>> for i in scrap:
 ...    for x in i.answers.attachments:
-...        x.download("media.jpg") # ToFile
+...        x.download("media.jpg") # File
 ...        x.download() # Buffer Type
 ...        x.url # Media url
-```
-```python
->>> for i in scrap:
-...    print(i.question.content)
 ```
