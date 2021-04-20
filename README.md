@@ -10,11 +10,7 @@
 > python3 -m pip install brainly-scraper
 > python3 -m pip install git+https://github.com/krypton-byte/brainly-scraper
 ```
-# Use
-```python
->>> from brainly_scraper import brainly
->>> brainly("question", amount:int)
-```
+# <a href="https://krypton-byte.github.io/brainly-scraper/"> Documentation</a>
 # Donasi
 <p align="center"><img src="https://svgur.com/i/Vtt.svg">
 
