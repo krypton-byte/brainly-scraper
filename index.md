@@ -34,7 +34,7 @@ Example:
 ...    for answer in i.answers:
 ...       print(answer.content)
 ```
-## <u> get Question Media</u>
+## <u> get Answer Media</u>
 ```python
 >>> for i in scrap:
 ...    for x in i.answers.attachments:
