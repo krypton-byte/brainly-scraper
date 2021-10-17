@@ -1,12 +1,15 @@
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 from os import path
-this_directory = path.abspath(path.dirname(__file__))
+base_dir = path.abspath(path.dirname(__file__))
 
 setup(
   name = 'brainly_scraper',        
   packages = ['brainly_scraper'],   
-  version = '0.0.1',    
+  include_package_data=True,
+  long_description=open(path.join(base_dir, "README.md"), encoding="utf-8").read(),
+  long_description_content_type='text/markdown',
+  version = '0.0.2',    
   license='MIT',     
   description = 'brainly scraper', 
   author = 'Krypton Byte',                  
